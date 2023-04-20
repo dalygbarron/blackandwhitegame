@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://bgtb0bt8udu8c"]
+
+[ext_resource type="Texture2D" uid="uid://bg8f8wv4xnnur" path="res://pics/battleBg.png" id="1_o8toi"]
+[ext_resource type="Script" path="res://script/battle.gd" id="1_qtgww"]
+[ext_resource type="Texture2D" uid="uid://cck8u0ewn2kgl" path="res://pics/spookyCat.png" id="2_1wsxm"]
+[ext_resource type="Texture2D" uid="uid://btxduu8n860r6" path="res://pics/shooter.png" id="4_kv3cj"]
+
+[node name="battle" type="Node2D"]
+texture_repeat = 2
+script = ExtResource("1_qtgww")
+
+[node name="bg" type="Sprite2D" parent="."]
+texture = ExtResource("1_o8toi")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 1152, 480, 648)
+
+[node name="cat" type="Sprite2D" parent="."]
+position = Vector2(220, 82)
+texture = ExtResource("2_1wsxm")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(229, 564)
+texture = ExtResource("4_kv3cj")

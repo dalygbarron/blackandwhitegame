@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ithbcnhcpnuf"]
+
+[ext_resource type="Texture2D" uid="uid://b1p0vo8gal55w" path="res://pics/dude.png" id="1_0ctct"]
+[ext_resource type="Script" path="res://scene/fellow.gd" id="2_q22tf"]
+
+[node name="fellow" type="Sprite2D"]
+texture = ExtResource("1_0ctct")
+centered = false
+script = ExtResource("2_q22tf")

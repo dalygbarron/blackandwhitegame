@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Texture2D" uid="uid://b54eujkkig0i5" path="res://pics/overworldPlayer.png" id="1_rpr5w"]
+[ext_resource type="Script" path="res://script/dude.gd" id="2_rdr7j"]
+
+[node name="player" type="Sprite2D"]
+texture = ExtResource("1_rpr5w")
+centered = false
+script = ExtResource("2_rdr7j")
+
+[node name="camera" type="Camera2D" parent="."]
